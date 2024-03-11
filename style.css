@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto";
+    font-family: "Lato", sans-serif;
     background-color: #FAF4ED;
 }
 
@@ -127,21 +127,57 @@ body {
 }
 
 .tasks-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
 }
+
+/* .tasks-container::-webkit-scrollbar {
+    display: none;
+}
+
+.swipe-container {
+    display: flex;
+    overflow: auto;
+    overflow-x: scroll;
+    scroll-snap-align: start;
+} */
 
 .task-container {
     display: flex;
     flex-direction: column;
     border: #797593 4px solid;
+    background-color: #F2E9E1;
     width: 350px;
     height: 135px;
     border-radius: 25px;
     margin-bottom: 23px;
+    /* min-width: 100%; */
+    /* scroll-snap-align: start; */
 }
+
+/* .action {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    color: white;
+    position: sticky;
+    left: 16px;
+    right: 16px;
+}
+
+.left {
+    background-color: orchid;
+}
+
+.right {
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+  }  */
 
 .task-container div {
     margin-left: 15px;
