@@ -1,6 +1,13 @@
+:root {
+    --purple: #575279;
+    --light-purple: #797593;
+    --cream-backgroud: #FAF4ED;
+    --item-backgroud: #F5D7D5;
+}
+
 body {
     font-family: "Lato", sans-serif;
-    background-color: #FAF4ED;
+    background-color: var(--cream-backgroud);
 }
 
 .header-div {
@@ -19,7 +26,7 @@ body {
 
 #menu-btn {
     border: none;
-    background-color: #575279;
+    background-color: var(--purple);
     cursor: pointer;
 }
 
@@ -55,10 +62,11 @@ body {
 }
 
 .screen-menu {
+    margin-top: 5px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 32px;
 }
@@ -68,14 +76,15 @@ body {
 }
 
 .screen-menu a:visited {
-    color: #575279;
+    color: var(--purple);
 }  
 
 .screen-menu a:active {
-    color: #575279;
+    color: var(--purple);
 }  
 
 .menu-item {
+    padding-bottom: 10px;
     text-align: center;
     width: 100%;
     border-bottom: #F4EDE8 3px solid; 
@@ -89,11 +98,11 @@ body {
     padding-top: 10px;
     font-weight: bold;
     font-size: 40px;
-    color: #575279;
+    color: var(--purple);
 }
 
 #add-btn {
-    background-color: #575279;
+    background-color: var(--purple);
 }
 
 #add-btn img {
@@ -109,7 +118,8 @@ body {
 }
 
 .day {
-    color: #575279;
+    color: var(--purple);
+    background-color: var(--item-backgroud);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,8 +161,8 @@ body {
 .task-container {
     display: flex;
     flex-direction: column;
-    border: #797593 4px solid;
-    background-color: #F2E9E1;
+    border: var(--light-purple) 4px solid;
+    background-color: #F5D7D5;
     width: 350px;
     height: 135px;
     border-radius: 25px;
@@ -188,14 +198,14 @@ i {
 }
 
 .task-text {
-    color: #575279;
+    color: var(--purple);
     font-size: 32px;
     font-weight: bold;
     margin-top: 15px;
 }
 
 .task-time {
-    color: #797593;
+    color: var(--light-purple);
     font-size: 20px;
     margin-top: 6px;
 }
