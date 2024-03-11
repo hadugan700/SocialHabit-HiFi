@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
   border-bottom: var(--line) 3px solid;
 }
 
@@ -30,4 +30,59 @@
     padding-bottom: 40px;
     font-size: 24px;
     color: var(--purple);
+}
+
+.friends-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: var(--line) 3px solid;
+}
+
+.friend-pic {
+    width: 136px;
+    height: 142px;
+}
+
+.friend-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.friend-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-name {
+    color: var(--purple);
+    font-size: 24px;
+}
+
+.friend-level {
+    color: var(--purple);
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.friend-level-bar {
+    margin-top: 15px;
+    width: 193px;
+    height: 46px;
+}
+
+.friend-level-bar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
