@@ -51,6 +51,7 @@ body {
     width: 330px;
     height: 300px;
     border-radius: 30px;
+    color: #575279;
 }
 
 .screen-menu {
@@ -62,23 +63,26 @@ body {
     font-size: 32px;
 }
 
+.screen-menu a:link {
+    text-decoration: none;
+}
+
+.screen-menu a:visited {
+    color: #575279;
+}  
+
+.screen-menu a:active {
+    color: #575279;
+}  
+
 .menu-item {
     text-align: center;
     width: 100%;
-    border-bottom: black 1px solid;
+    border-bottom: #F4EDE8 3px solid; 
 }
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover, .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+.menu-item:last-child {
+    border-bottom: none;
 }
 
 #tasks-title {
@@ -198,7 +202,6 @@ i {
 
 .prog-bar {
     margin-top: 6px;
-    
     margin-right: 15px;
 }
 

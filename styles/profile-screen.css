@@ -1,0 +1,40 @@
+#add-btn {
+    visibility: hidden;
+}
+
+#profile-pic {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: #F2E9E1 3px solid;
+}
+
+#profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#level-container {
+    margin: 10px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #F2E9E1 3px solid;
+}
+
+#level-text {
+    font-size: 38px;
+    color: #575279;
+}
+
+#level-prog-bar img {
+    width: 351px;
+    height: 82px;
+    object-fit: contain;
+}
