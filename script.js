@@ -1,15 +1,9 @@
-var modal = document.getElementById("menu-modal");
+let menuModal = document.getElementById("menu-modal");
+let menuModalCont = document.getElementsByClassName("modal-cont")[0]
+let menuBtn = document.getElementById("menu-btn");
 
-var btn = document.getElementById("menu-btn");
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+menuBtn.onclick = function() {
+    menuModal.style.display = "block";
 }
 
 fetch('tasks.json')
@@ -57,3 +51,19 @@ fetch('tasks.json')
         });
     })
     .catch(error => console.error('Error fetching tasks:', error)); 
+
+let taskModal = document.getElementById("task-modal");
+let taskBtn = document.getElementById("add-btn");
+
+taskBtn.onclick = function() {
+    taskModal.style.display = "block";
+}
+
+document.onclick = function(event) {
+    if (event.target == menuModal) {
+        menuModal.style.display = "none";
+    }
+    if (event.target == taskModal) {
+        taskModal.style.display = "none";
+    }
+} 

@@ -2,9 +2,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SocialHabits - Friends</title>
+    <title>SocialHabits - Group</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/friends-screen.css">
+    <link rel="stylesheet" href="../styles/group-screen.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <script src="../script.js" defer></script>
 </head>
@@ -13,17 +14,20 @@
         <button class="circle" id="menu-btn">
             <img src="../images/menu.png" alt="menu">
         </button>
-        <div id="tasks-title">Friends</div>
-        <div class="circle" id="add-btn">
-            <img src="../images/plus.png" alt="add">
-        </div>
+        <div id="tasks-title">Group</div>
+        <a href="friends.html" class="circle" id="back-btn">
+            <img src="../images/back-arrow.png" alt="back">
+        </a>
     </div>
 
     <div id="group-container">
-        <a href="group.html" id="group-pic">
-            <img src="../images/group.png" alt="group-pic">
-        </a>
-        <div id="group-name">Group</div>
+        <div id="group-pic">
+            <img src="../images/group-img.png" alt="group-pic">
+        </div>
+        <div id="group-name">Level 2</div>
+        <div id="group-level-bar">
+            <img src="../images/group-level-bar.png" alt="group level bar">
+        </div>
     </div>
 
     <div id="friends-container">
@@ -33,7 +37,7 @@
             </div>
             <div class="friend-details">
                 <div class="friend-name">Friend #1</div>
-                <div class="friend-level">Level 15</div>
+                <div class="friend-level">Rank 1</div>
                 <div class="friend-level-bar">
                     <img src="../images/friend-level16-bar.png" alt="friend-lebel16-bar">
                 </div>
@@ -45,7 +49,7 @@
             </div>
             <div class="friend-details">
                 <div class="friend-name">Friend #2</div>
-                <div class="friend-level">Level 10</div>
+                <div class="friend-level">Rank 2</div>
                 <div class="friend-level-bar">
                     <img src="../images/friend-level11-bar.png" alt="friend-lebel11-bar">
                 </div>
@@ -57,7 +61,7 @@
             </div>
             <div class="friend-details">
                 <div class="friend-name">Friend #3</div>
-                <div class="friend-level">Level 10</div>
+                <div class="friend-level">Rank 3</div>
                 <div class="friend-level-bar">
                     <img src="../images/friend-level11-bar.png" alt="friend-lebel11-bar">
                 </div>
@@ -65,6 +69,7 @@
         </div>
     </div>
     
+
     <div id="menu-modal">
         <div class="modal-cont">
             <div class="screen-menu">
@@ -76,5 +81,7 @@
             </div>
         </div>
     </div>
+
+    
 </body>
 </html>
