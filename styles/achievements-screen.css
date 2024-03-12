@@ -1,0 +1,140 @@
+:root {
+    --purple: #575279;
+    --light-purple: #797593;
+    --cream-backgroud: #FAF4ED;
+    --item-backgroud: #F5D7D5;
+    --line: #F2E9E1;
+    --finished: #EBBCBA;
+    --finished-border: #B54D4D;
+}
+
+#achievements-title {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--purple);
+}
+
+#back-btn {
+    border: none;
+    background-color: var(--purple);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#back-btn img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin-right: 6px;
+}
+
+#finished-achs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.finished-ach-container {
+    margin-bottom: 36px;
+}
+
+.fn-ach-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--purple);
+    margin-bottom: 12px;
+}
+
+.fn-details-container {
+    background-color: var(--finished);
+    border: var(--finished-border) 4px solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+}
+
+.fn-ach-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #737373;
+    margin-right: 15px;
+}
+
+.fn-description {
+    margin-bottom: 20px;
+}
+
+.fn-trophy-pic {
+    width: 170px;
+    height: 130px;
+    margin-left: 15px;
+}
+
+.fn-trophy-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#prog-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--purple);
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#inprog-achs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.inprog-ach-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--item-backgroud);
+    border: var(--purple) 3px solid;
+    border-radius: 25px;
+    width: 350px;
+    height: 155px;
+}
+
+.inprog-trophy-pic {
+    width: 170px;
+    height: 130px;
+}
+
+.inprog-trophy-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.inprog-bar {
+   width: 150px;
+}
+
+.inprog-bar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
