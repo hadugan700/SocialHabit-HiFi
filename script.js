@@ -1,13 +1,12 @@
-var modal = document.getElementById("menu-modal");
+var menuModal = document.getElementById("menu-modal");
+var menuBtn = document.getElementById("menu-btn");
 
-var btn = document.getElementById("menu-btn");
-
-btn.onclick = function() {
-  modal.style.display = "block";
+menuBtn.onclick = function() {
+  menuModal.style.display = "block";
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == menuModal) {
+    menuModal.style.display = "none";
   }
 } 
