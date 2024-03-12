@@ -6,6 +6,22 @@
     --line: #F2E9E1;
 }
 
+#back-btn {
+    border: none;
+    background-color: var(--purple);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#back-btn img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin-right: 6px;
+}
+
 #group-container {
   display: flex;
   flex-direction: column;
