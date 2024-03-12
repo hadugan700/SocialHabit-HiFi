@@ -9,6 +9,9 @@ document.onclick = function(event) {
     if (event.target == taskModal) {
         taskModal.style.display = "none";
     }
+    if (event.target == menuModal) {
+        menuModal.style.display = "none";
+    }
 } 
 
 let createBtn = document.getElementById("create-btn");

@@ -1,3 +1,11 @@
+let menuModal = document.getElementById("menu-modal");
+let menuModalCont = document.getElementsByClassName("modal-cont")[0]
+let menuBtn = document.getElementById("menu-btn");
+
+menuBtn.onclick = function() {
+    menuModal.style.display = "block";
+}
+
 let friendModal = document.getElementById("friend-modal");
 let friendBtn = document.getElementById("friend-btn");
 
@@ -8,6 +16,9 @@ friendBtn.onclick = function() {
 document.onclick = function(event) {
     if (event.target == friendModal) {
         friendModal.style.display = "none";
+    }
+    if (event.target == menuModal) {
+        menuModal.style.display = "none";
     }
 } 
 
