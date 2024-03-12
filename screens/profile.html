@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/profile-screen.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <script src="../scripts/script.js" defer></script>
+    <script src="../scripts/new-pic.js" defer></script>
 </head>
 <body>
     <div class="header-div">
@@ -20,8 +21,20 @@
     </div>
 
     <div id="profile-pic">
-        <img src="../images/profile1.png" alt="profile-pic">
+        <button id="new-profile-pic-btn">   
+            <img id="profile-img" src="../images/profile1.png" alt="profile-pic">
+        </button>
     </div>
+
+    <div id="pic-modal">
+        <div id="pic-modal-cont">
+            <form id="pic-form">
+                <input type="file" id="pic-input" accept="image/*">
+                <button id="pic-save-btn">Save</button>
+            </form>
+        </div>
+    </div>
+
 
     <div id="level-container">
         <div id="level-text">Level 10</div>
