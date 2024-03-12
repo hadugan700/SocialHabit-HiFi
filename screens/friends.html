@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/friends-screen.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <script src="../script.js" defer></script>
+    <script src="../scripts/script.js" defer></script>
+    <script src="../scripts/new-friend.js" defer></script>
+
 </head>
 <body>
     <div class="header-div">
@@ -14,9 +16,9 @@
             <img src="../images/menu.png" alt="menu">
         </button>
         <div id="tasks-title">Friends</div>
-        <div class="circle" id="add-btn">
+        <button class="circle" id="friend-btn">
             <img src="../images/plus.png" alt="add">
-        </div>
+        </button>
     </div>
 
     <div id="group-container">
@@ -39,30 +41,6 @@
                 </div>
             </div>
         </div>
-        <div class="friend-container">
-            <div class="friend-pic">
-                <img src="../images/profile3.png" alt="friend-pic">
-            </div>
-            <div class="friend-details">
-                <div class="friend-name">Friend #2</div>
-                <div class="friend-level">Level 10</div>
-                <div class="friend-level-bar">
-                    <img src="../images/friend-level11-bar.png" alt="friend-lebel11-bar">
-                </div>
-            </div>
-        </div>
-        <div class="friend-container">
-            <div class="friend-pic">
-                <img src="../images/profile1.png" alt="friend-pic">
-            </div>
-            <div class="friend-details">
-                <div class="friend-name">Friend #3</div>
-                <div class="friend-level">Level 10</div>
-                <div class="friend-level-bar">
-                    <img src="../images/friend-level11-bar.png" alt="friend-lebel11-bar">
-                </div>
-            </div>
-        </div>
     </div>
     
     <div id="menu-modal">
@@ -74,6 +52,17 @@
                 <a href="profile.html" class="menu-item">Profile</a>
                 <a href="achievements.html" class="menu-item">Achivements</a>
             </div>
+        </div>
+    </div>
+
+    <div id="friend-modal">
+        <div id="friend-modal-cont">
+            <form id="friend-form">
+                <input type="text" name="friend-name" id="friend-name" required placeholder="Username">
+                <button id="add-friend-btn" class="circle">
+                    <img src="../images/plus.png" alt="plus">
+                </button>
+            </form>
         </div>
     </div>
 </body>
