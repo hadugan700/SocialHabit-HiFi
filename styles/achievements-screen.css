@@ -55,7 +55,7 @@
     border: var(--finished-border) 4px solid;
     border-radius: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 350px;
     height: 150px;
@@ -74,7 +74,7 @@
 }
 
 .fn-trophy-pic {
-    width: 150px;
+    width: 100px;
     margin-left: 15px;
 }
 
@@ -105,7 +105,7 @@
 
 .inprog-ach-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--item-backgroud);
     border: var(--purple) 3px solid;
@@ -116,8 +116,8 @@
 }
 
 .inprog-trophy-pic {
-    width: 170px;
-    height: 130px;
+    width: 100px;
+    margin-left: 15px;
 }
 
 .inprog-trophy-pic img {

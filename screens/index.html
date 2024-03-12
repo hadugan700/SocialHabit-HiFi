@@ -52,22 +52,14 @@
         </div>
     </div>
     
-    <div class="tasks-container">
-        <!-- <div class="swipe-container">
-            <div class="action left">
-                <i class="material-icons">favorite</i>
-            </div> -->
-            <div class="task-container">
-                <div class="task-text">Task name #1</div>
-                <div class="task-time">10:00 - 12:00</div>
-                <div class="prog-bar">
-                    <img src="../images/bar.png" alt="prog-bar">
-                </div>
+    <div id="tasks-container">
+        <!-- <div class="task-container">
+            <div class="task-text">Task name #1</div>
+            <div class="task-time">10:00 - 12:00</div>
+            <div class="prog-bar">
+                <img src="../images/bar.png" alt="prog-bar">
             </div>
-            <!-- <div class="action right">
-                <i class="material-icons">done</i>
-              </div>
-        </div> -->
+        </div>
         <div class="task-container">
             <div class="task-text">Task name #2</div>
             <div class="task-time">13:00 - 14:00</div>
@@ -89,7 +81,7 @@
             <div class="prog-bar">
                 <img src="../images/bar.png" alt="prog-bar">
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div id="menu-modal">
@@ -106,16 +98,18 @@
     
     <div id="task-modal">
         <div id="task-modal-content">
-            <form action="" method="post">
+            <form id="task-form">
                 <label for="task-name">Add a name:</label>
-                <input type="text" name="task-name" id="task-name">
+                <input type="text" name="task-name" id="task-name" required>
                 <label for="task-desc">Add a description:</label>
-                <input type="text" name="task-desc" id="task-desc">
+                <textarea name="task-desc" id="task-desc" rows="4" cols="30" required></textarea>
                 <label for="start-time">Start time:</label>
-                <input type="time" id="start-time" class="without_ampm" name="start-time" required>
-                <label for="start-time">End time:</label>
-                <input type="time"id="start-time" class="without_ampm" name="start-time" required>
-                <input type="submit">
+                <input type="time" id="start-time" name="start-time" required>
+                <label for="end-time">End time:</label>
+                <input type="time"id="end-time" name="end-time" required>
+                <button id="create-btn" class="circle">
+                    <img src="../images/plus.png" alt="plus">
+                </button>
             </form>
         </div>
     </div>
