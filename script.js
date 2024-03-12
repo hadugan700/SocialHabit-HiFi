@@ -6,6 +6,8 @@ menuBtn.onclick = function() {
     menuModal.style.display = "block";
 }
 
+console.log('Fetching tasks...');
+
 fetch('tasks.json')
     .then(response => response.json())
     .then(data => {
