@@ -1,12 +1,23 @@
-var menuModal = document.getElementById("menu-modal");
-var menuBtn = document.getElementById("menu-btn");
+let menuModal = document.getElementById("menu-modal");
+let menuModalCont = document.getElementsByClassName("modal-cont")[0]
+let menuBtn = document.getElementById("menu-btn");
 
 menuBtn.onclick = function() {
-  menuModal.style.display = "block";
+    menuModal.style.display = "block";
 }
 
-window.onclick = function(event) {
-  if (event.target == menuModal) {
-    menuModal.style.display = "none";
-  }
+let taskModal = document.getElementById("task-modal");
+let taskBtn = document.getElementById("add-btn");
+
+taskBtn.onclick = function() {
+    taskModal.style.display = "block";
+}
+
+document.onclick = function(event) {
+    if (event.target == menuModal) {
+        menuModal.style.display = "none";
+    }
+    if (event.target == taskModal) {
+        taskModal.style.display = "none";
+    }
 } 

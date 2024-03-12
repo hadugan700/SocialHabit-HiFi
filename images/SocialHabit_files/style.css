@@ -75,7 +75,7 @@ body {
     font-size: 32px;
 }
 
-#task-modal {
+/* #task-modal {
     display: none;
     position: fixed; 
     top: 0;
@@ -87,30 +87,20 @@ body {
     justify-content: center;
     align-items: center;
     overflow: auto;
-}
-
-#task-modal-content {
-    background-color: #FFFAF3;
-    border: black 1px solid;
-    border-radius: 25px;
-    width: 390px;
-    height: 400px;
-    font-size: 32px;
-    color: var(--purple);
-}
-
-/* .without_ampm::-webkit-datetime-edit-ampm-field {
-    display: none;
 } */
 
-/* input[type=time]::-webkit-clear-button {
+.without_ampm::-webkit-datetime-edit-ampm-field {
+    display: none;
+}
+
+input[type=time]::-webkit-clear-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
     -ms-appearance:none;
     appearance: none;
     margin: -10px; 
-  } */
+  }
 
 .screen-menu a:link {
     text-decoration: none;
