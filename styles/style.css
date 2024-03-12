@@ -170,7 +170,9 @@ body {
   right: 0px;
   top: 0px;
   padding: 5px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--purple);
 }
 
