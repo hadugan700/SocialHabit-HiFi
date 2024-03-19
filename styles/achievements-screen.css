@@ -1,23 +1,36 @@
 :root {
-    --purple: #575279;
-    --light-purple: #797593;
-    --cream-backgroud: #FAF4ED;
-    --item-backgroud: #F5D7D5;
+    --text: #575279;
+    --light-text: #797593;
+    --background-color: #FAF4ED;
+    --item-background: #F5D7D5;
     --line: #F2E9E1;
     --finished: #EBBCBA;
     --finished-border: #B54D4D;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #191724;
+        --text: #e0def4;
+        --subtle: #908caa;
+        --overlay: #26233a;
+        --item-background: var(--overlay);
+        --highlight-med: #2a2837;
+        --finished: #3a2330;
+        --light-text: var(--subtle);
+    }
 }
 
 #achievements-title {
     padding-top: 10px;
     font-weight: bold;
     font-size: 36px;
-    color: var(--purple);
+    color: var(--text);
 }
 
 #back-btn {
     border: none;
-    background-color: var(--purple);
+    background-color: var(--text);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -46,7 +59,7 @@
 .fn-ach-title {
     font-size: 32px;
     font-weight: bold;
-    color: var(--purple);
+    color: var(--text);
     margin-bottom: 5px;
 }
 
@@ -65,7 +78,7 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    color: #737373;
+    color: var(--light-text);
     margin-right: 15px;
 }
 
@@ -87,7 +100,7 @@
 #prog-title {
     font-size: 32px;
     font-weight: bold;
-    color: var(--purple);
+    color: var(--text);
     margin-bottom: 20px;
     margin-left: 15px;
     margin-right: 15px;
@@ -107,8 +120,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--item-backgroud);
-    border: var(--purple) 3px solid;
+    background-color: var(--item-background);
+    border: var(--text) 3px solid;
     border-radius: 25px;
     width: 350px;
     height: 155px;
@@ -136,12 +149,12 @@
 .inprog-ach-title {
     font-size: 32px;
     font-weight: bold;
-    color: var(--purple);
+    color: var(--text);
 }
 
 .inprog-ach-text {
     font-size: 20px;
-    color: var(--purple);
+    color: var(--text);
 }
 
 .inprog-bar {
