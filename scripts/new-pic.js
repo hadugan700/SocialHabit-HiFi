@@ -22,7 +22,7 @@ createBtn.addEventListener("click", (event) => {
     let inputPic = document.getElementById("pic-input").files[0]
 
     let pic = document.getElementById("profile-img")
-    pic.src = `../images/${inputPic.name}`
+    pic.src = `./images/${inputPic.name}`
 
     picModal.style.display = "none";
 })

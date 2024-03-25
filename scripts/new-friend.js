@@ -31,13 +31,13 @@ createBtn.addEventListener("click", (event) => {
     friend.classList.add("friend-container");
     friend.innerHTML = `
     <div class="friend-pic">
-        <img src="../images/profile2.png" alt="friend-pic">
+        <img src="./images/profile2.png" alt="friend-pic">
     </div>
     <div class="friend-details">
         <div class="friend-name">${data["friend-name"]}</div>
         <div class="friend-level">Level 15</div>
         <div class="friend-level-bar">
-            <img src="../images/friend-level16-bar.png" alt="friend-lebel16-bar">
+            <img src="./images/friend-level16-bar.png" alt="friend-lebel16-bar">
         </div>
     </div>`;
 

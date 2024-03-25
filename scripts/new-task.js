@@ -33,7 +33,7 @@ createBtn.addEventListener("click", (event) => {
         <div class="task-text">${data['task-name']}</div>
         <div class="task-time">${data['start-time']} - ${data['end-time']}</div>
         <div class="prog-bar">
-            <img src="../images/bar-empty.png" alt="prog-bar">
+            <img src="./images/bar-empty.png" alt="prog-bar">
         </div>`;
 
     let container = document.getElementById("tasks-container");
