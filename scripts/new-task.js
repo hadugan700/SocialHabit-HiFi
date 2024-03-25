@@ -70,4 +70,8 @@ createBtn.addEventListener("click", (event) => {
     taskModal.style.display = "none";
 })
 
+let completeTask = () => {
+    let progBar = document.querySelector('.prog-bar img');
+    progBar.src = './images/bar-full.png';
+}
 
