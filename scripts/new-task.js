@@ -21,11 +21,6 @@ createBtn.addEventListener("click", (event) => {
     event.preventDefault();
     let formData = new FormData(form);
     let data = Object.fromEntries(formData);
-    // let jsonData = JSON.stringify(data);
-    // console.log(jsonData);
-
-    // window.localStorage.setItem('task', jsonData);
-    // console.log(window.localStorage.getItem('task'));
 
     let task = document.createElement("div");
     task.classList.add("task-container");
@@ -41,3 +36,4 @@ createBtn.addEventListener("click", (event) => {
 
     taskModal.style.display = "none";
 })
+
