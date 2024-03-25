@@ -14,9 +14,6 @@ document.onclick = function(event) {
     if (event.target == menuModal) {
         menuModal.style.display = "none";
     }
-    if (event.target == editModal) {
-        editModal.style.display = 'none';
-    }
 } 
 
 let createBtn = document.getElementById("create-btn");
@@ -40,16 +37,12 @@ createBtn.addEventListener("click", (event) => {
     let container = document.getElementById("tasks-container");
     container.innerHTML += task.outerHTML;
 
-    let addedTask = container.lastElementChild;
+    let addedTask = container.lastChild;
     addedTask.addEventListener('click', () => {
-        console.log('Task clicked');
-    
         let taskTitle = addedTask.querySelector('.task-text').textContent; 
         let taskTime = addedTask.querySelector('.task-time').textContent;
 
         let taskDesc = addedTask.querySelector('.task-desc').textContent;
-
-        console.log(taskTitle, taskTime, taskDesc);
 
         let editModal = document.getElementById('edit-modal');
         editModal.style.display = 'block';
@@ -70,8 +63,45 @@ createBtn.addEventListener("click", (event) => {
     taskModal.style.display = "none";
 })
 
-let completeTask = () => {
-    let progBar = document.querySelector('.prog-bar img');
-    progBar.src = './images/bar-full.png';
-}
+let completeBtn = document.getElementById('complete-btn');
 
+completeBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    let task = document.querySelector('.task-container');
+
+    task.style.border = '2px solid var(--love)';
+    task.style.backgroundColor = 'var(--secondary-item-background)';
+
+    let progBar = task.querySelector('.prog-bar');
+    progBar.innerHTML = '<img src="./images/bar-complete.png" alt="prog-bar">';
+
+    editModal.style.display = 'none';
+})
+
+let deleteBtn = document.getElementById('delete-btn');
+
+deleteBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    let task = document.querySelectorAll('.task-container')[2];
+    task.remove()
+
+    editModal.style.display = 'none';
+});
+
+let editBtn = document.getElementById('update-btn');
+
+editBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    let task = document.querySelectorAll('.task-container')[1];
+
+    let editTitleInput = editModal.querySelector('#edit-name');
+    let editStartTime = editModal.querySelector('#edit-start-time');
+    let editEndTime = editModal.querySelector('#edit-end-time');
+    let editDescInput = editModal.querySelector('#edit-desc');
+
+    task.querySelector('.task-text').textContent = editTitleInput.value;
+    task.querySelector('.task-time').textContent = `${editStartTime.value} - ${editEndTime.value}`;
+    task.querySelector('.task-desc').textContent = editDescInput.value;
+
+    editModal.style.display = 'none';
+})
