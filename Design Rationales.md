@@ -6,12 +6,19 @@ By the third week of development, we had identified our core objectives: learnab
 -recoverability (enabling the user to return to a prior state), and
 -shortcuts (accessing commonly used actions easily and/or quickly)
 In addressing the detailed needs of our users, we took care not to lose sight of the app's central purpose—to be a useful and efficient tool for our users during their daily routines.
+
+
 When we first started designing in Figma, our initial ideas and decisions set a strong foundation. By the second week, it was clear that the entire design process had been beneficial, making significant improvements over previous efforts.
 A notable change in our final design is the removal of the task deletion slide. We found that this feature wasn't intuitive, requiring us to consider a tutorial for users to understand its benefits fully.
 We also decided to remove other features, such as the search bar and the experience (XP) system. Our decision to exclude these from our app was based on their limited benefits to the user. While the XP system could serve as motivation, it didn't effectively assist users in tracking and organizing their habits, which is our app's primary function.
 
+
+
 Similarly, we found the search bar to be unnecessary. Given that the app clearly displays tasks for each day of the week and users can easily switch days to view specific tasks with a simple scroll, we concluded that the search functionality was redundant in our app's context.
-Additionally, we made small yet impactful adjustments to the buttons. In our early design phases, specifically in the hi-fi black-and-white version, the menu button was simply labeled "menu." The option to add a task was termed "create," even in a previous version of the black-and-white lo-fi, a choice not commonly seen in similar applications; instead, we replaced them with the icons seen in the final design. We have also refined the selection process for days, ensuring it's more precise. Our goal when creating tasks was to maximize their efficiency while retaining all necessary features and functionalities. The introduction of colors and themes has been an interesting aspect of our design process. Despite settling on a particular theme, achieving visual effectiveness remained a priority for us.
+Additionally, we made small yet impactful adjustments to the buttons. In our early design phases, specifically in the hi-fi black-and-white version, the menu button was simply labeled "menu." The option to add a task was termed "create," even in a previous version of the black-and-white lo-fi, a choice not commonly seen in similar applications; instead, we replaced them with the icons seen in the final design. We have also refined the selection process for “days”, ensuring it's more precise. Our goal when creating tasks was to maximize their efficiency while retaining all key features and functionalities. And finally the most efficient change since the beta version was the compilation of tasks which was accessible by the icon provided, which user will mark a task added done, or completed by pressing the button and the color of the task will differ from other unfinished tasks. The introduction of colors and themes has been an interesting aspect of our design process. Despite settling on a particular theme, achieving visual effectiveness remained a priority for us. In this same area we added dark mode, which would change the app's interface based on the user’s default appearance choice on their device to enhance usability and accessibility.
+
+
+
+
 Our primary goal was to ensure that our app was as user-friendly and practical as possible. To achieve this, we incorporated all of our concerns into surveys to verify the accuracy, usefulness, and comprehensiveness of our design and features.
 For user study questionnaires, the System Usability Scale (SUS), and consent forms, we carefully examined examples that could provide insight. We then tailored these documents to address the specifics of our app, including our unique concerns. This allowed us to gather and analyze data effectively, ensuring our conclusions were well-founded on user feedback and empirical evidence.
-
