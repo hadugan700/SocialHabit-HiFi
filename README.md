@@ -26,4 +26,10 @@ All the .html files are the base components of our application. These html files
 In this section we have the specific KLM calculations for each task done as intended by one of our group members. Each task in divided in steps that are then added together to get the final result for that task.
 
 ## Prototyping & Experimentation
-This folder holds all of our previous prototypes and assignments regarding the group projects,
+This folder holds all of our previous prototypes and assignments regarding the group projects and the questionnaires we used for the last assignment to gather our data.
+- Ethical consent form: we collected the personal data of the users that participated in our project. We needed to make sure that they understand and agree to the terms of our research project. This form informs them about the terms and they can sign it if they agree and would like to participate in our research.
+- First-ui approach, Hi-fi, Lo-fi, Prototype.md: here we have several development stages of SocialHabit throughout the length of the course, each one marking a significant step in our journey to reach the final hi-fi prototype we used in our project
+## Design Rationales
+In this document we explain the concept of SocialHabit and the steps we took to get to the final vision we had for our project. It details the features we wanted the app to had and the ones that made it in the final version. It explains our thought processes and why we decided to go in this direction with our app. The document explains also how we build the different versions from the Lo-fi prototype to the final version.
+## Use Case Definition]
+In this document we describe the use cases of our app and what we wanted to achieve with its implementation. It explains our vision and the overall feel of the application. We also give an example of a normal use of the app for tracking one’s habits while also interacting with their friend group 
