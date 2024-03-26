@@ -14,10 +14,19 @@ We also decided to remove other features, such as the search bar and the experie
 
 
 
+
 Similarly, we found the search bar to be unnecessary. Given that the app clearly displays tasks for each day of the week and users can easily switch days to view specific tasks with a simple scroll, we concluded that the search functionality was redundant in our app's context.
-Additionally, we made small yet impactful adjustments to the buttons. In our early design phases, specifically in the hi-fi black-and-white version, the menu button was simply labeled "menu." The option to add a task was termed "create," even in a previous version of the black-and-white lo-fi, a choice not commonly seen in similar applications; instead, we replaced them with the icons seen in the final design. We have also refined the selection process for “days”, ensuring it's more precise. Our goal when creating tasks was to maximize their efficiency while retaining all key features and functionalities. And finally the most efficient change since the beta version was the compilation of tasks which was accessible by the icon provided, which user will mark a task added done, or completed by pressing the button and the color of the task will differ from other unfinished tasks. The introduction of colors and themes has been an interesting aspect of our design process. Despite settling on a particular theme, achieving visual effectiveness remained a priority for us. In this same area we added dark mode, which would change the app's interface based on the user’s default appearance choice on their device to enhance usability and accessibility.
+Additionally, we made small yet impactful adjustments to the buttons. In our early design phases, specifically in the hi-fi black-and-white version, the menu button was simply labeled "menu" as seen in <a href="fig2">Figure 2</a>. The option to add a task was termed "create," even in a previous version of the black-and-white lo-fi, a choice not commonly seen in similar applications; instead, we replaced them with the icons seen in the final design as in <a href="fig1">Figure 1</a>. We have also refined the selection process for “days”, ensuring it's more precise. Our goal when creating tasks was to maximize their efficiency while retaining all key features and functionalities. And finally the most efficient change since the beta version was the compilation of tasks which was accessible by the icon provided, which user will mark a task added done, or completed by pressing the button and the color of the task will differ from other unfinished tasks. The introduction of colors and themes has been an interesting aspect of our design process. Despite settling on a particular theme, achieving visual effectiveness remained a priority for us. In this same area we added dark mode, which would change the app's interface based on the user’s default appearance choice on their device to enhance usability and accessibility.
 
+<figure id="fig1">
+<img width="180" height="420" alt="Screenshot 2024-03-26 at 11 08 56" src="https://github.com/hadugan700/SocialHabit-HiFi/assets/122108767/a6643462-eec6-4e3d-bdfd-796d3440416d">
+    <figcaption>Figure 1</figcaption>
+</figure>
 
+<figure id="fig2">
+    <img src="https://github.com/hadugan700/SocialHabit-HiFi/assets/122108767/23b8527a-e079-4996-9d59-bb178bcc32c6" alt="Description of the image" width="180"  height="420" >
+    <figcaption>Figure 2</figcaption>
+</figure>
 
 
 Our primary goal was to ensure that our app was as user-friendly and practical as possible. To achieve this, we incorporated all of our concerns into surveys to verify the accuracy, usefulness, and comprehensiveness of our design and features.
