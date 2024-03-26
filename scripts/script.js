@@ -17,7 +17,7 @@ document.onclick = function(event) {
 let mouseData = [];
 
 function recordMousePos(event) {
-  let currentTime = new Date().toLocaleString();
+  let currentTime = new Date().getTime().toLocaleString();
   let data = {
     x: event.clientX,
     y: event.clientY,
