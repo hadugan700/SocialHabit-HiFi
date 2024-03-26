@@ -1,4 +1,4 @@
-Design Rationales# 
+# Design Rationales
 From the initial concept and the design challenge, to the final design of our habit tracker app, SocialHabit, our primary focus remained solid on crafting the app to meet our target users' needs. Throughout the development, we aimed to: 1. integrate all the innovative ideas we had; and 2. improve these ideas based on continuous feedback from our users and survey participants.
 The app's interface has evolved considerably from our first Figma sketches, with thoughtful planning given to how each feature would function. This iterative process is evidenced by the significant refinements from the earliest Figma drafts to the last version of the actual app, SocialHabit.
 By the third week of development, we had identified our core objectives: learnability, efficiency, minimizing errors, and ensuring user satisfaction. These initial targets were expanded to include other key functionalities, such as:
