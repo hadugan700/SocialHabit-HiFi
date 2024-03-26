@@ -31,5 +31,5 @@ This folder holds all of our previous prototypes and assignments regarding the g
 - First-ui approach, Hi-fi, Lo-fi, Prototype.md: here we have several development stages of SocialHabit throughout the length of the course, each one marking a significant step in our journey to reach the final hi-fi prototype we used in our project.
 ## Design Rationales
 In this document we explain the concept of SocialHabit and the steps we took to get to the final vision we had for our project. It details the features we wanted the app to have and the ones that made it in the final version. It explains our thought process and why we decided to go in this direction with our app. The document explains also how we built the different versions from the Lo-fi prototype to the final version.
-## Use Case Definition]
+## Use Case Definition
 In this document we describe the use cases of our app and what we want to achieve with its implementation. It explains our vision and the overall feel of the application. We also give an example of a normal use of the app for tracking one’s habits while also interacting with their friend group 
