@@ -1,4 +1,4 @@
-!["KLM Model"](SocialHabit-HiFi/KLM Calculations/KLM Model.png)
+!"KLM Model"(SocialHabit-HiFi/KLM Calculations/KLM Model.png)
 
 First task:
 T = 2 * M + 5 * P + 5 * BB + 2 * H + 6 * K = 2 * 1.35 + 5 * 1.1 + 5 * 0.2 + 2 * 0.4 + 6 * 0.28 = 11.68 sec
