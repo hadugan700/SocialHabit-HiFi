@@ -5,13 +5,6 @@
     --item-background: #F5D7D5;
     --overlay: #F2E9E1;
 }
-:root {
-    --text: #575279;
-    --light-text: #797593;
-    --background-color: #FAF4ED;
-    --item-background: #F5D7D5;
-    --overlay: #F2E9E1;
-}
 
 @media (prefers-color-scheme: dark) {
     :root {
